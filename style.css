@@ -1,0 +1,82 @@
+body {
+	width: 1280px;
+	height: 1024px;
+	margin: 0 auto;
+}
+
+header, nav, footer {
+	text-align: center;
+	margin: auto;
+	background-color: #efefef; 
+	padding: 10px;
+}
+
+li {
+	display:inline;
+	padding: 5px;
+}
+
+#content {
+	border-style: groove;
+	overflow: auto;
+	height:100%;
+	background-color: #AFEEEE;
+}
+
+
+
+.tracks{
+	border-style: groove;
+	background-color: #ff0000;
+	width: 600px;
+	height: 100%;
+	float: left;
+	margin: 10px;
+}
+
+div[class^="track_"],div[class^="mixer_"]{
+	border-style: groove;
+	width:595px;
+	height: 40px;
+	
+}
+
+.mixers{
+	border-style: groove;
+	background-color: #00ff00;
+	width: 600px;
+	height: 100%;
+	float: left;
+	margin: 10px;
+}
+
+label{
+	display:inline-block;
+}
+
+fieldset{
+	border:0;
+}
+
+.equalizer{
+	float:left;
+	height:10px;
+	margin-right:22px;
+}
+
+.volume{
+	float:left;
+	height:15px;
+	margin-right:5px;
+}
+
+.effect{
+	float:left;
+	height:10px;
+	margin-right:10px;
+}
+
+
+
+
+
